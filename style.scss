@@ -86,6 +86,10 @@ body {
       @include mobile-2 {
         width: 335%;
       }
+
+      @include mobile-3 {
+        width: 386%;
+      }
     }
 
     #burger {
@@ -102,6 +106,10 @@ body {
 
       @include mobile-2 {
         left: 60rem;
+      }
+
+      @include mobile-3 {
+        left: 55rem;
       }
     }
 
@@ -163,6 +171,10 @@ body {
             left: 60rem;
             top: 5rem;
           }
+
+          @include mobile-3 {
+            left: 56rem;
+          }
         }
 
         img {
@@ -220,6 +232,10 @@ body {
       margin: 38.5rem 5rem;
     }
 
+    @include mobile-3 {
+      margin: 45.5rem 5rem;
+    }
+
     img {
       height: 26rem;
       width: 53%;
@@ -243,6 +259,11 @@ body {
       @include mobile-2 {
         width: 373%;
         height: 37rem;
+      }
+
+      @include mobile-3 {
+        width: 501%;
+        left: 1rem;
       }
     }
 
@@ -277,6 +298,11 @@ body {
         top: 178rem;
         width: 141%;
       }
+
+      @include mobile-3 {
+        top: 175rem;
+        width: 141%;
+      }
     }
 
     h2 {
@@ -291,6 +317,10 @@ body {
         font-size: 64px;
         width: 171%;
       }
+
+      @include mobile-3 {
+        width: 187%;
+      }
     }
 
     p {
@@ -304,6 +334,10 @@ body {
         font-size: 42px;
         width: 251%;
         line-height: 4.8rem;
+      }
+
+      @include mobile-3 {
+        width: 268%;
       }
     }
   }
@@ -377,6 +411,10 @@ body {
         @include mobile-2 {
           left: 22rem;
           top: 439rem;
+        }
+
+        @include mobile-3 {
+          top: 446rem;
         }
       }
 
@@ -477,6 +515,11 @@ body {
         width: 260%;
         margin-left: 2rem;
         margin-top: -8rem;
+
+        @include mobile-3 {
+          width: 276%;
+          margin-left: 4rem;
+        }
       }
 
       h3 {
@@ -519,6 +562,10 @@ body {
 
     @include mobile-2 {
       padding: 1.5rem 1rem;
+    }
+
+    @include mobile-3 {
+      width: 325%;
     }
 
     img {
